@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 100px 300px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-align: center;
+    color: midnightblue;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.form input[type=file]::file-selector-button {
+    content: 'Choose a file';
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: indigo;
+    color: white;
+    font-size: 15px;
+    margin-left: 75px;
+    margin-right: 25px;
+  }
+
+.form button{
+    padding: 10px 20px;
+    background-color: darkviolet;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+}
+
+.output-container{
+    padding: 200px 400px;
+    text-align: center;
+}
+
+.output-container a{
+    padding: 10px 20px;
+    background-color: darkviolet;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
